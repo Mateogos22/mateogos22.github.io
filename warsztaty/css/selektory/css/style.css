@@ -1,0 +1,75 @@
+/* selektor znacznika */
+p {
+    color: darkcyan;
+}
+
+/* selektor id */
+#id-text {
+    color: blue;
+    font-size: 22px;
+}
+
+/* łączenie selektorów */
+.link, span, #title {
+    background-color: yellow;
+    color: green;
+}
+
+/* selektor potomka bezpośredniego */
+#potomek-bezpo > p {
+    color: chartreuse;
+}
+
+/* selektor wszystkich elementów potomnych */
+#lista a {
+    margin: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: monospace;
+    color: aqua;
+    text-decoration: none;
+}
+
+/* selektor konkretnego elementu */
+#lista2 li:nth-child(2) {
+    color: blueviolet;
+    font-size: 20px;
+    font-style: italic;
+}
+
+#lista3 li:nth-child(3n+4) {
+    color: blueviolet;
+    font-size: 20px;
+    font-style: italic;
+}
+
+/* selektor bliskiego rodzeństwa */
+header h2 + h3 {
+    color: red;
+}
+
+/* selektor rodzeństwa */
+section h2 ~ h3 {
+    color: darkgoldenrod;
+}
+
+/* selektor wykluczający */
+ul li:not(.last-item) {
+    color: coral;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
