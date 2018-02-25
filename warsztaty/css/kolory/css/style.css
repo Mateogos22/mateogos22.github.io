@@ -1,0 +1,25 @@
+.kolory {
+    margin-bottom: 10px;
+    width: 200px;
+    height: 100px;
+}
+
+.kolory-predefiniowane {
+    background-color: red;
+}
+
+.kolory-heksadecymalne {
+    background-color: #ff7755;
+}
+
+.kolory-heksadecymalne-short {
+    background-color: #f75;
+}
+
+.kolory-rgb {
+    background-color: rgb(16, 151, 255);
+}
+
+.kolory-rgba {
+    background-color: rgba(255, 255, 0, 60%);
+}
