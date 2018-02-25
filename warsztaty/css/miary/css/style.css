@@ -1,0 +1,66 @@
+html {
+    font-size: 20px;
+}
+
+#container {
+    font-size: 30px;
+}
+
+#container p {
+    margin-bottom: 15px;
+    background-color: rgba(0,255,255,0.6);
+    font-size: 30px;
+}
+
+#pixele {
+    width: 400px;
+}
+
+#em {
+    width: 2em;
+}
+
+#ex {
+    width: 20ex;
+}
+
+/* 1rem = font-size elementu html, 3rem = font-size*3*/
+#rem {
+    width: 20rem;
+}
+
+#procenty {
+    width: 50%;
+}
+
+#vw {
+    width: 60vw;
+}
+
+#vh {
+    width: 60vh;
+}
+
+#vmin {
+    width: 30vmin;
+}
+
+#vmax {
+    width: 60vmax;
+}
+
+#inch {
+    width: 4in;
+}
+
+#cm {
+    width: 20cm;
+}
+
+#mm {
+   width: 200mm;
+}
+
+#pt {
+    width: 120pt;
+}
