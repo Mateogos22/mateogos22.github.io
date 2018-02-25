@@ -26,7 +26,6 @@ p {
     font-size: 22px;
     font-weight: bold;
     font-family: monospace;
-    color: aqua;
     text-decoration: none;
 }
 
@@ -58,6 +57,11 @@ ul li:not(.last-item) {
     color: coral;
 }
  
+/* selektor atrybutu */ 
+li a[href="http://google.pl"] {
+    background-color: darkblue;
+    color: white;
+}
 
 
 
