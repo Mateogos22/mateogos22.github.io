@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz zgłoszeniowy</title>
+</head>
+<body>
+    <div>
+        <form action="https://formspree.io/golosmateusz@gmail.com"
+      method="POST">
+         <div>
+           <label for="imie">Imię:</label><br>
+           <input type="text" name="imie" placeholder="Imię"> 
+        </div>
+        <div>
+          <label for="nazwisko">Nazwisko</label><br>
+          <input type="text" name="nazwisko" placeholder="Nazwisko"> 
+        </div>   
+        <div>
+            <label for="mail">Email</label><br>
+            <input type="text" name="_replyto" placeholder="adres email">
+        </div>
+        <div>
+            <label for="telefon">Telefon</label><br>
+            <input type="text" name="telefon" placeholder="numer telefonu">
+        </div><br>
+            <select name="miasto" id="miasto">
+                <option value="miasto">Wybierz miasto</option>
+                <option value="krk">Kraków</option>
+                <option value="waw">Warszawa</option>
+                <option value="gda">Gdańsk</option>
+            </select><br>
+            <input id="female" type="radio" name="gender">
+            <label for="female">kobieta</label><br>
+            <input id="male" type="radio" name="gender">
+            <label for="male">mężczyzna</label><br>
+            <label for="zgoda">Wyrażam zgodę na przetwarzanie danych osobowych</label>
+            <input type="checkbox" name="zgoda"><br>
+            <textarea name="wiadomość" id="wiadomosc" cols="30" rows="10" placeholder="Wiadomość"></textarea><br>
+            <input type="submit" value="Wyślij">
+        </form>
+    </div>
+</body>
+</html>
