@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Formularz zgoszeniowy</title>
+    <title>Formularz zgłoszeniowy</title>
 </head>
 <body>
    <div>
     <form action="https://formspree.io/golosmateusz@gmail.com"
-      method="POST">
+          method="POST">
          <label for="imie">Imię</label><br>
          <input type="text" name="imie" id="imie" placeholder="Imię"><br>
          <label for="nazwisko">Nazwisko</label><br>
@@ -21,12 +21,20 @@
              <option value="krakow">Kraków</option>
              <option value="warszawa">Warszawa</option>
              <option value="gdansk">Gdańsk</option>
+
          </select><br>
         <label>Kobieta<input type="radio" name="gender" value="kobieta"></label><br>
         <label>Mężczyzna<input type="radio" name="gender" value="mezczyzna"></label><br>
          <textarea name="wiadomosc" id="" cols="30" rows="10" placeholder="Wiadomość"></textarea><br>
          <label>Wyrażam zgodę na przetwarzanie danych osobyowych<input type="checkbox" name="zgoda"></label><br>
+
+         </select>
+         <input type="radio" name="gender" value="kobieta">Kobieta
+         <input type="radio" name="gender" value="mezczyzna">Mężczyzna<br>
+         <textarea name="wiadomosc" id="wiadomosc" cols="30" rows="10" placeholder="Wiadomość"></textarea><br>
+
          <input type="submit" name="Prześlij">
-   </div>
+        </form>
+      </div>
 </body>
 </html>
