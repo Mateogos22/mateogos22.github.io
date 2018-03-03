@@ -1,0 +1,23 @@
+#pierwszy::before {
+    content: "COŚ COŚ ";
+    color: aqua;
+}
+
+#po::after {
+    content: " po";
+    color: goldenrod;
+}
+
+#sel::first-letter {
+    background-color: red;
+    font-size: 35px;
+    font-style: italic;
+}
+
+#lorem::first-line {
+    color: #739;
+}
+
+p::selection {
+    color: cyan;
+}

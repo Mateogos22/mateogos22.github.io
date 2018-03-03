@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz zgłoszeniowy</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <div>
+    <form action="https://formspree.io/golosmateusz@gmail.com"
+          method="POST">
+          
+          <!-- Dane -->
+          
+         <label for="imie">Imię:</label><br>
+         <input type="text" name="imie" id="imie" placeholder="Imię"><br>
+         <label for="nazwisko">Nazwisko:</label><br>
+         <input type="text" name="nazwisko" id="nazwisko" placeholder="Nazwisko"><br>
+         <label for="email">Email:</label><br>
+         <input type="email" name="_replyto" id="email" placeholder="Adres email"><br>
+         <label for="telefon">Telefon:</label><br>
+         <input type="text" name="telefon" id="telefon" placeholder="Numer telefonu"><br><br>
+         
+         <!-- Wybór miasta -->
+         
+         <select name="miasto" id="miasto">
+             <option value="wybor">Wybierz miasto</option>
+             <option value="krakow">Kraków</option>
+             <option value="warszawa">Warszawa</option>
+             <option value="gdansk">Gdańsk</option>
+         </select><br><br>
+         
+         <!-- Płeć -->
+         
+        <div id="gender">Wybierz płeć:<br>
+            <label>Kobieta<input type="radio" name="gender" value="kobieta"></label>
+        </div>
+        <label>Mężczyzna<input type="radio" name="gender" value="mezczyzna"></label><br>
+        
+        <!-- Wiadomość -->
+        
+         <textarea name="wiadomosc" cols="30" rows="10" placeholder="Wiadomość..."></textarea><br>
+         
+         <!-- Checkbox -->
+         
+         <label><input type="checkbox" name="zgoda">Wyrażam zgodę na przetwarzanie danych osobowych</label><br>
+         
+         <!-- Wyślij -->
+         
+         <input type="submit" name="Prześlij">
+        </form>
+      </div>
+</body>
+</html>

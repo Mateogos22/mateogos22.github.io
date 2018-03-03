@@ -1,0 +1,66 @@
+form {
+    background-color: #213b50;
+    color: #fff;
+    padding: 30px;
+    width: 600px;
+    height: 700px;   
+}
+
+form input, form textarea, form select{
+    background-color: #2b4a64;
+    border: #213b50 1px solid;
+    margin-top: 10px;
+}
+
+input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+form input:focus, form select:focus, form textarea:focus {
+    background-color: #4e708c;
+    border: #fff 1px solid;
+}
+
+input[type="text"], input[type="email"]{
+    width: 250px;
+    height: 30px;
+}
+ 
+input[type="submit"] {
+    border: solid 1px #07ef00;
+    width: 100px;
+    height: 50px;
+    background-color: #07ef00;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+input[type="submit"]:hover {
+    background-color: #028e07;
+    color: #d9dbd9;
+    border: #028e07 1px solid;
+}
+
+select {
+    color: #fff;
+    width: 250px;
+}
+
+textarea {
+    margin-top: 5px;
+    width: 250px;
+    height: 100px;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #fff;
+}
+
+input[type="radio"] {
+    margin: 5px;
+    padding: 5px;
+}

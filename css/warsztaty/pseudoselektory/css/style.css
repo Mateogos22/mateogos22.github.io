@@ -1,0 +1,28 @@
+#tekst1 {
+    color: blue;
+}
+
+#tekst1:target {
+    color: firebrick;
+}
+
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: hotpink;
+}
+
+.tablica>:nth-child(even) {
+    background-color: yellow;
+}
+
+.tablica>:nth-child(odd) {
+    background-color: lawngreen;
+}
+
+.tablica>:nth-child(5n+4) {
+    background-color: blue;
+    color: white;
+}
