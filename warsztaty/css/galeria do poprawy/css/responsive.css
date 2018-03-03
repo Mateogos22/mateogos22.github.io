@@ -1,0 +1,17 @@
+#gallery {
+    width: 100%
+}
+
+@media (max-width:768px) 
+    
+@media (min-width:769px) and (max-width:992px)  {
+    figure {
+        width: 49%;
+    }
+}
+
+@media (min-width:993px) and (max-width 1200px) {
+    figure {
+        width: 49%;
+    }
+}
