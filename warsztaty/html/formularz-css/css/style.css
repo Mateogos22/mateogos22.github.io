@@ -48,6 +48,8 @@ input[type="submit"]:hover {
 select {
     color: #fff;
     width: 250px;
+    height: 25px;
+    font-family: serif;
 }
 
 textarea {
@@ -58,6 +60,7 @@ textarea {
 
 input::placeholder, textarea::placeholder {
     color: #fff;
+    font-family: sans-serif;
 }
 
 input[type="radio"] {
