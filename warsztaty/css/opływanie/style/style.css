@@ -1,0 +1,11 @@
+#book1 {
+    float: right;
+} 
+
+#book2 {
+    float: left;
+}
+
+p:last-child {
+    clear: both;
+}
