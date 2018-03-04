@@ -214,6 +214,7 @@ a {
 
 #contact {
     background-color: #213b50;
+    overflow: hidden;
 }
 
 #contact #contact-content {
@@ -222,4 +223,14 @@ a {
 
 #contact-content h2 {
     color: #fff;
+}
+
+.contact-adress {
+    color: #fff;
+    margin-left: 15px;
+}
+
+.contact-adress span {
+    color: #1ac056;
+    text-decoration: underline;
 }
