@@ -118,7 +118,38 @@ section h2 span {
 
 #icons {
     text-align: center;
+}
+
+figure {
+    display: inline-block;
+    padding: 10px;
+}
+
+/* portfolio */
+
+.portfolio-items {
+    font-size: 0;
+}
+
+
+#portfolio .portfolio-item {
+    height: 350px;
+    background-size: cover;
     background-position: center;
+    display: inline-block;
+    width: 33%;
+    position: relative;
+}
+
+#portfolio .portfolio-items #port1 {
+    background-image: url(../style/img/portfolio1.jpg);
+    
+}
+
+#portfolio .portfolio-items #port2 {
+    background-image: url(../style/img/portfolio2.jpg);
+    
+}
 
 #portfolio .portfolio-items #port3 {
     background-image: url(../style/img/portfolio4.jpg);
