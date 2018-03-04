@@ -1,3 +1,5 @@
+/* general */
+
 *{
     box-sizing: border-box;
 }
@@ -44,7 +46,7 @@ body {
 }
 
 #main-header .header-content {
-    padding: 35vh;
+    padding: 40vh;
     text-align: center;
 }
 
@@ -67,20 +69,36 @@ body {
 
 /* o mnie */ 
 
-#o-mnie img {
-    float:left;
-    height: 300px;
-    margin-left: 100px;
-    margin-right: 50px;
-}
-
 #o-mnie {
     text-align: center;
     font-family: 'Lato', sans-serif;
+    background-color: #f9fcfe;
     }
 
-#o-mnie span {
+#o-mnie h2 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+#o-mnie h2 span {
     color: #1ac056;
+    font-weight: 400;
 
+}
 
+#o-mnie img {
+    float: left;
+    height: 300px;
+    margin-left: 200px;
+    margin-right: 80px;
+    border: 2px #fff;
+    border-radius: 1%;
+    
+}
+
+.o-mnie-paragraf {   
+    margin: 25px;
+    text-align: left;
+    padding-right: 120px;
+    margin-left: 50px;
 }
