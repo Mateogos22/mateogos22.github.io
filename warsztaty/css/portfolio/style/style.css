@@ -209,3 +209,17 @@ figure {
 a {
     color: #fff;
 }
+
+/* kontakt */
+
+#contact {
+    background-color: #213b50;
+}
+
+#contact #contact-content {
+    float: left;
+}
+
+#contact-content h2 {
+    color: #fff;
+}
