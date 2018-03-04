@@ -5,6 +5,82 @@
 body {
     font-family: 'Lato', sans-serif;
     color: #291f1a;
-    margin: 0px;
-    font-weight: 300;
+    margin: 0;
+    font-weight: 300;    
+}
+
+/* menu */
+
+#main-nav{
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+#main-nav ul{
+    margin: 0;
+    float: right;
+    
+}
+
+#main-nav ul li{
+    display: inline-block;
+    padding: 40px;
+}
+
+#main-nav ul li a{
+    color: #1ac056;
+    text-decoration: none;
+}
+
+/* header */
+
+#main-header {
+    background-image: url(../style/img/header-background.jpg);
+    background-size: cover;
+    color: #fff;
+}
+
+#main-header .header-content {
+    padding: 35vh;
+    text-align: center;
+}
+
+#main-header .header-content h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 50px;
+}
+
+#main-header .header-content h1 span {
+    color: #1ac056;
+    font-weight: 400;
+}
+
+#main-header .header-content h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+}
+
+/* o mnie */ 
+
+#o-mnie img {
+    float:left;
+    height: 300px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+#o-mnie {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    }
+
+#o-mnie span {
+    color: #1ac056;
+
+
 }
