@@ -1,21 +1,27 @@
 #gallery {
-    width: 100%
+    width: 100%;
+}
+
+#gallery div {
+ font-size: 0px;   
+}
+
+#gallery figure {
+    font-size: 14px;
 }
 
 figure {
-    width: 33%;
+    width: 33.33333%;
 }
 
-@media (max-width:768px) 
-    
-@media (min-width:769px) and (max-width:992px)  {
+@media (min-width:769px) and (max-width:992px) {
     figure {
-        width: 49%;
+        width: 50%;
     }
 }
 
-@media (min-width:993px) and (max-width 1200px) {
+@media (max-width:768px) {
     figure {
-        width: 49%;
+        width: 100%;
     }
 }
