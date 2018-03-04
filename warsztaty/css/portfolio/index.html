@@ -1,46 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Moje portfolio</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/fontawesome-all.css">    
+    <link rel="stylesheet" href="style/fontawesome-all.css">
 </head>
+
 <body>
- 
-  <!-- menu -->
-  
-   <nav id="main-nav">
-       <ul>
-           <li><a href="#about">o mnie</a></li>
-           <li><a href="#">umiejętności</a></li>
-           <li><a href="#">portfolio</a></li>
-           <li><a href="#">kontakt</a></li>
-       </ul>
-   </nav>
-   
-   <!-- header -->
-   
-   <header id="main-header">
-         <div class="header-content">
-            <h1>Mateusz <span>Gołos</span></h1> 
-            <h2>Front-End Developer</h2> 
-          </div>   
-   </header>   
-   
-   <!-- o mnie -->
-   
-     <section id="about">
-         <h2>O <span>mnie</span></h2>
-            <figure>
-              <img src="../portfolio/style/img/jan-nowak.jpg" alt="Mateusz Gołos">
+
+    <!-- menu -->
+
+    <nav id="main-nav">
+        <ul>
+            <li><a href="#about">o mnie</a></li>
+            <li><a href="#skills">umiejętności</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#">kontakt</a></li>
+        </ul>
+    </nav>
+
+    <!-- header -->
+
+    <header id="main-header">
+        <div class="header-content">
+            <h1>Mateusz <span>Gołos</span></h1>
+            <h2>Front-End Developer</h2>
+        </div>
+    </header>
+
+    <!-- o mnie -->
+
+    <section id="about">
+        <h2>O <span>mnie</span></h2>
+        <figure>
+            <img src="../portfolio/style/img/jan-nowak.jpg" alt="Mateusz Gołos">
+        </figure>
+        <div class="about-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, ipsum quas modi, culpa non nihil itaque expedita perspiciatis maxime eaque, autem ipsam debitis adipisci optio enim asperiores eius necessitatibus dolor sunt at architecto nemo nostrum esse eligendi. Dolores obcaecati deserunt ratione perferendis ipsa eum consectetur fugiat eveniet earum, corrupti. Consequuntur sit fugiat harum dolor illo placeat praesentium, commodi eligendi ex. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates reprehenderit similique quo optio perspiciatis quaerat tempore, sint illo architecto magnam.</p>
+        </div>
+    </section>
+
+    <!-- umiejętności -->
+
+    <section id="skills">
+        <h2>Moje <span>umiejętności</span></h2>
+        <div class="umiejetnosci-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error vero omnis, eum dolores aliquam distinctio tempora ipsam molestiae? Quod, nostrum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, nostrum.</p>
+        </div>
+        <div id="icons">
+            <figure><img src="../portfolio/style/icons/html5.png" alt="HTML5">
+                <figcaption>HTML5</figcaption>
             </figure>
-         <div class="about-content">
-                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, ipsum quas modi, culpa non nihil itaque expedita perspiciatis maxime eaque, autem ipsam debitis adipisci optio enim asperiores eius necessitatibus dolor sunt at architecto nemo nostrum esse eligendi. Dolores obcaecati deserunt ratione perferendis ipsa eum consectetur fugiat eveniet earum, corrupti. Consequuntur sit fugiat harum dolor illo placeat praesentium, commodi eligendi ex. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates reprehenderit similique quo optio perspiciatis quaerat tempore, sint illo architecto magnam.</p>                 
-         </div>
-     </section>  
-   
-   
+            <figure><img src="../portfolio/style/icons/css3.png" alt="">
+                <figcaption>CSS3</figcaption>
+            </figure>
+            <figure><img src="../portfolio/style/icons/js.png" alt="">
+                <figcaption>JavaScript</figcaption>
+            </figure>
+            <figure><img src="../portfolio/style/icons/jquery.png" alt="">
+                <figcaption>jQuerry</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <!-- portfolio -->
+    <section id="portfolio">
+        <h2>Moje <span>portfolio</span></h2>
+        <div class="portfolio-items">
+            <div class="portfolio-item" id="port1">
+                <div class="portfolio-item-mask">
+                    <div class="mask-content"></div>
+                </div>
+            </div>
+            <div class="portfolio-item" id="port2">
+                <div class="portfolio-item-mask">
+                    <div class="mask-content"></div>
+                </div>
+            </div>
+            <div class="portfolio-item" id="port3">
+                <div class="portfolio-item-mask">
+                    <div class="mask-content"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </body>
+
 </html>
