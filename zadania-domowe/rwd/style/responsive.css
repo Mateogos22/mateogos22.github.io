@@ -1,7 +1,17 @@
 @media (min-width:1170px) {
-    
+    header.media {
+        background-image: url(zadanie-domowe-rwd-materialy/obrazy/man-1.jpg);
+    }
 }
 
-@media (min-width:992px) and (max-width:1169px) {
-    height: 70%;
+@media (min-width:993px) and (max-width:1169px) {
+    header.media {
+        background-image: url(zadanie-domowe-rwd-materialy/obrazy/man-2.jpg);
+    }
+}
+
+@media (max-width:992px) {
+    header.media {
+        background-image: url(zadanie-domowe-rwd-materialy/obrazy/man-1.jpg);
+    }
 }
