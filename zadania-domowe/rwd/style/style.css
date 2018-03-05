@@ -6,8 +6,11 @@ body {
     margin: 10px;
 }
 
-#header {
-    background-image: url(zadanie-domowe-rwd-materialy/obrazy/man-1.jpg);
+.media1 {
+  background-image: url(zadanie-domowe-rwd-materialy/obrazy/man-1.jpg);  
+}
+
+#header {    
     background-size: cover;
     height: 800px;
     position: relative;
@@ -18,16 +21,14 @@ body {
     font-family: "Verdana", sans-serif;
     text-transform: uppercase;
     position: absolute;
-    padding: 10px;
-    text-align: left;
+    padding: 10px;    
     margin-top: 400px;
 }
 
 h2 {
-    font-size: 15px;
-    
+    font-size: 15px;    
 }
 
-span {
+span {    
     font-size: 20px;
 }
