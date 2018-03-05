@@ -1,3 +1,8 @@
+header.media {
+    overflow: scroll;
+    background-attachment: scroll;
+}
+
 @media (min-width:1170px) {
     header.media {
         background-image: url(zadanie-domowe-rwd-materialy/obrazy/man-1.jpg);
