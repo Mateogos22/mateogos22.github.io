@@ -3,22 +3,11 @@
 }
 
 body {
-    margin: 0px;
+    margin: 0;
 }
 
 header#header {
+    max-height: 800px;
+    padding: 100px 0 100px;
     background-size: cover;
-    max-height: 100%;
-    padding: 100px 0px 100px;
-}
-
-div.header-container {
-    margin: 10px;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 15px;
-    font-family: "Verdana", sans-serif;
-}
-
-h2 {
 }
