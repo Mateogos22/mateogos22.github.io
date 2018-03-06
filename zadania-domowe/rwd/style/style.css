@@ -9,14 +9,11 @@ body {
 header#header {
     height: 100vh;
     background-size: cover;
-    position: static;
-}
 
 h2 {
     font-family: 'Verdana', sans-serif;
     text-transform: uppercase;
     font-size: 20px;
-    position: absolute;
 }
 
 span {
