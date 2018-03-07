@@ -9,6 +9,7 @@ body {
 header#header {
     height: 100vh;
     background-size: contain;
+    background-repeat: no-repeat;
     position: relative;
 }
 
