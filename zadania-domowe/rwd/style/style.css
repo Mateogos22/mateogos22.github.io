@@ -6,7 +6,7 @@ body {
     margin: 0;
 }
 
-header#header {
+header #header {
     height: 100vh;
     background-size: contain;
     position: relative;
