@@ -15,17 +15,14 @@ header {
     header.media {
         background-image: url(zadanie-domowe-rwd-materialy/obrazy/man-1.jpg);
         background-repeat: no-repeat;
-<<<<<<< HEAD
         height: 800px;
-=======
-        height: 100%;
->>>>>>> 077133ff6af85e27fd083b9d0197a253c767a355
         width: 100%;
     }
 
     h2 {
         text-align: left;
         font-family: 'Verdana', sans-serif;
+        text-transform: uppercase;
         color: #fff;
         top: 50%;
         left: 5%;
@@ -41,6 +38,8 @@ header {
 
     h2 {
         text-align: left;
+        font-family: 'Verdana', sans-serif;
+        text-transform: uppercase;
         color: #fff;
         top: 25%;
         right: 5%;
@@ -53,6 +52,7 @@ header {
         background-position: top;
         background-repeat: no-repeat;
         height: 400px;
+        width: 100%;
     }
 
     .header-container {
@@ -63,6 +63,9 @@ header {
     }
 
     h2 {
+        font-family: 'Verdana', sans-serif;
+        text-transform: uppercase;
+        color: #fff;
         text-align: center;
         width: 100%;
-
+    }
