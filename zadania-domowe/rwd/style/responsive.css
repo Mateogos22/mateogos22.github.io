@@ -33,6 +33,7 @@
     header.media {
         background-image: url(zadanie-domowe-rwd-materialy/obrazy/man-1.jpg);
         background-position: top;
+        background-repeat: no-repeat;
         max-height: 50%;
         overflow: visible;
     }
