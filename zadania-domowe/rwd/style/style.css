@@ -8,7 +8,7 @@ body {
 
 header #header {
     height: 100vh;
-    background-size: contain;
+    background-size: cover;
     position: relative;
 }
 
