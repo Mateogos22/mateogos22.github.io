@@ -9,6 +9,7 @@ body {
 header#header {
     height: 100vh;
     background-size: cover;
+}    
 
 h2 {
     font-family: 'Verdana', sans-serif;
