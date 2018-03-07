@@ -32,7 +32,7 @@
 @media (max-width:992px) {
     header.media {
         background-image: url(zadanie-domowe-rwd-materialy/obrazy/man-1.jpg);
-        background-position: center;
+        background-position: top;
         max-height: 50%;
         overflow: visible;
     }
