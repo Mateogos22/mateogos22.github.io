@@ -24,23 +24,23 @@ body {
 
 
 @keyframes resize {
-    0% {
+    0%, 100% {
         height: 300px;
+        opacity: .3;
     }
     
     50% {
         height: 50px;
+        opacity: 1;
     }
     
-    100% {
-        height: 300px;
-    }
 }
 
 .animation img {
     animation-name: resize;
     animation-duration: 5s;
     animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 
 
