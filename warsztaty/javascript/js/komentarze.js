@@ -1,1 +1,12 @@
-// jakiś komentarz JS
+// jakiś komentarz liniowy 
+
+/* 
+
+komentarz blokowy 
+
+*/
+
+
+
+
+
