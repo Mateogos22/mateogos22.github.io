@@ -129,7 +129,7 @@ figure {
 
 .portfolio-items {
     font-size: 0;
-    text-align: center;    
+    text-align: center;
 }
 
 
@@ -145,29 +145,29 @@ figure {
 
 #portfolio .portfolio-items #port1 {
     background-image: url(../style/img/portfolio1.jpg);
-    
+
 }
 
 #portfolio .portfolio-items #port2 {
     background-image: url(../style/img/portfolio2.jpg);
-    
+
 }
 
 #portfolio .portfolio-items #port3 {
     background-image: url(../style/img/portfolio4.jpg);
-    
+
 }
 
 .portfolio-item-mask {
     opacity: 0;
-    background-color: rgba(42,61,79,0.8);
+    background-color: rgba(42, 61, 79, 0.8);
     width: 100%;
     height: 100%;
     position: absolute;
     transition: all 0.3s ease-in-out;
 }
 
-#portfolio .portfolio-item-mask:hover{
+#portfolio .portfolio-item-mask:hover {
     opacity: 1;
 }
 
@@ -175,7 +175,7 @@ figure {
     border: 1px solid #fff;
     margin: 10px;
     position: relative;
-    height: 330px;    
+    height: 330px;
 }
 
 #portfolio .mask-content-inner {
@@ -195,14 +195,14 @@ figure {
 
 .mask-content-inner h4 {
     margin-top: 15px;
-    margin-bottom: 10px;    
+    margin-bottom: 10px;
 }
 
 #portfolio .mask-content-inner .fa-link {
     font-size: 20px;
 }
 
-#portfolio .mask-content-inner .fa-link:hover{
+#portfolio .mask-content-inner .fa-link:hover {
     color: #1ac056;
 }
 
@@ -215,6 +215,7 @@ a {
 #contact {
     background-color: #213b50;
     overflow: hidden;
+    position: relative;
 }
 
 #contact #contact-content {
@@ -227,10 +228,73 @@ a {
 
 .contact-adress {
     color: #fff;
-    margin-left: 15px;
 }
 
 .contact-adress span {
     color: #1ac056;
     text-decoration: underline;
+}
+
+#social {
+    padding: 5px;
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+#facebook {
+    display: inline-block;
+}
+
+#instagram {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#linkedin {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+div#form {
+    float: right;
+    position: absolute;
+    top: 15px;
+    right: 30px;
+}
+
+form {
+    background-color: #213b50;
+    color: #fff;
+}
+
+form input,
+form textarea {
+    background-color: #2b4a64;
+    border: #213b50 1px solid;
+    margin-top: 10px;
+}
+
+textarea {
+    margin-top: 5px;
+    width: 650px;
+    height: 100px;
+}
+
+input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 650px;
+    height: 60px;
+}
+
+input[type="submit"] {
+    border: solid 1px #fff;
+    width: 150px;
+    height: 50px;
+    background-color: #1ac056;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    float: right;
 }
