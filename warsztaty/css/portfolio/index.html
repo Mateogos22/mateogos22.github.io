@@ -3,10 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Moje portfolio</title>
+	<meta name="viewport" content= "width=device-width, initial-scale=1.0">
+    <title>Mateusz Gołos - portfolio</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/fontawesome-all.css">
+    <link rel="stylesheet" href="style/responsive.css">
 </head>
 
 <body>
@@ -111,6 +113,9 @@
             </div>
         </div>
     </section>
+    
+    <!-- kontakt -->
+    
     <section id="contact">
         <div id="contact-content">
             <h2>Mateusz <span>Gołos</span></h2>
@@ -131,9 +136,11 @@
                     <a href=""><i class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
-            <div id="form">
+        </div>
+        <div id="form">
                 <form action="post" method="post">
-                    <label for="imie"><input type="text" name="imie" id="imie" placeholder="Imię i nazwisko">
+                    <label for="imie">
+                        <input type="text" name="imie" id="imie" placeholder="Imię i nazwisko">
                     </label><br>
                     <label for="email">
                         <input type="email" name="email" placeholder="Adres e-mail">
@@ -141,9 +148,14 @@
                     <textarea name="text" id="mess" cols="30" rows="10" placeholder="Treść wiadomości..."></textarea>
                 </form><br>
                 <input type="submit" id="submit" name="Wyślij">
-            </div>
         </div>
     </section>
+    
+<!-- stopka -->
+    
+    <footer>
+        <p>Copyright&copy; Mateusz Gołos</p>
+    </footer>
 </body>
 
 </html>

@@ -1,0 +1,47 @@
+@media (min-width: 801px) and (max-width: 1200px) {
+    
+    
+    
+}
+
+@media (max-width: 800px) {
+    
+    nav {
+        
+    }
+    
+    #about {        
+        display: block;
+        float: none;
+    }
+    
+    #about figure {
+        width: 100%;
+    }
+    
+    #about-content {
+        text-align: center;
+    }
+    
+    #icons {
+        width: 100%;
+        text-align: center;
+        display: block;
+        overflow: auto;
+    }
+    
+    #portfolio {
+        width: 100%;
+        display: block;
+        overflow: auto;
+    }
+    
+    #contact {
+        width: 100%;
+    }
+    
+    #form {
+        float: none;
+    }
+    
+}

@@ -134,7 +134,7 @@ figure {
 
 
 #portfolio .portfolio-item {
-    height: 350px;
+    height: 35vh;
     background-size: cover;
     background-position: center;
     display: inline-block;
@@ -218,6 +218,10 @@ a {
     position: relative;
 }
 
+#contact-content {
+    display: inline-block;
+}
+
 #contact #contact-content {
     float: left;
 }
@@ -256,19 +260,17 @@ a {
 }
 
 div#form {
-    float: right;
     position: absolute;
-    top: 15px;
-    right: 30px;
+    top: 20px;
+    right: 25px;
 }
-
+    
 form {
     background-color: #213b50;
     color: #fff;
 }
 
-form input,
-form textarea {
+form input, form textarea {
     background-color: #2b4a64;
     border: #213b50 1px solid;
     margin-top: 10px;
@@ -276,15 +278,20 @@ form textarea {
 
 textarea {
     margin-top: 5px;
-    width: 650px;
-    height: 100px;
+    width: 50vw;
+    height: 10vh;
 }
 
 input {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 650px;
-    height: 60px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 50vw;
+    height: 10vh;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #ccc;
+    padding: 10px;
 }
 
 input[type="submit"] {
@@ -298,3 +305,17 @@ input[type="submit"] {
     text-transform: uppercase;
     float: right;
 }
+
+/* stopka */
+
+footer {
+    background-color: #162836;
+    color: #fff;
+    overflow: hidden;
+}
+
+footer p{
+    margin: 0;
+    padding: 10px;
+}
+
