@@ -6,13 +6,10 @@
 
 @media (max-width: 800px) {
     
-    nav {
-        
-    }
-    
     #about {        
         display: block;
         float: none;
+        overflow: auto;
     }
     
     #about figure {
@@ -44,4 +41,4 @@
         float: none;
     }
     
-}
+}   

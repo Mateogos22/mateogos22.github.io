@@ -232,6 +232,7 @@ a {
 
 .contact-adress {
     color: #fff;
+    margin: 15px;
 }
 
 .contact-adress span {
@@ -240,9 +241,8 @@ a {
 }
 
 #social {
-    padding: 5px;
     font-size: 25px;
-    margin-left: 5px;
+    margin-left: 15px;
 }
 
 #facebook {
