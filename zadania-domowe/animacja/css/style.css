@@ -20,7 +20,7 @@ div.odliczanie-liczba {
 #dziesiec, #dziewiec, #osiem, #siedem, #szesc, #piec, #cztery, #trzy, #dwa, #jeden, #tekst {    
     text-align: center;
     visibility: hidden;
-    vertical-align: text-middle;
+    vertical-align: middle;
 }
 
 #dziesiec {
