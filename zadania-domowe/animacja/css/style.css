@@ -8,6 +8,8 @@ div.animacja-odliczanie {
     background-color: #fff;
     vertical-align: middle;
     font-size: 50px;
+    display: flex;
+    align-content: center;
 }
 
 div.odliczanie-liczba {
@@ -17,77 +19,62 @@ div.odliczanie-liczba {
     margin: 50px;
 }
 
-#dziesiec, #dziewiec, #osiem, #siedem, #szesc, #piec, #cztery, #trzy, #dwa, #jeden, #tekst {    
+#dziesiec, #dziewiec, #osiem, #siedem, #szesc, #piec, #cztery, #trzy, #dwa, #jeden, #tekst {
     text-align: center;
     visibility: hidden;
     vertical-align: middle;
 }
 
-#dziesiec {
+#dziesiec, #dziewiec, #osiem, #siedem, #szesc, #piec, #cztery, #trzy, #dwa, #jeden, {
     animation: 1s fadeIn;
     animation-fill-mode: forwards;
+}
+
+#dziesiec {
     background-color: #33d6ff;
 }
 
 #dziewiec {
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards;
     animation-delay: 1s;
     background-color: #88ff4d;
 }
 
 #osiem {
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards;
     animation-delay: 2s;
     background-color: #ffd11a;
 }
 
 #siedem {
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards;
     animation-delay: 3s;
     background-color: #b32d00;
 }
 
 #szesc {
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards;
     animation-delay: 4s;
     background-color: #1a53ff;
 }
 
 #piec {
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards;
     animation-delay: 5s;
     background-color: #e6e600;
 }
 
 #cztery {
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards;
     animation-delay: 6s;
     background-color: #ff0000;
 }
 
 #trzy {
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards;
     animation-delay: 7s;
     background-color: #b366ff;
 }
 
 #dwa {
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards;
     animation-delay: 8s;
     background-color: #1aff1a;
 }
 
 #jeden {
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards;
     animation-delay: 9s;
     background-color: #0088cc;
 }
@@ -101,7 +88,8 @@ div.odliczanie-liczba {
 
 
 @keyframes fadeIn {
-    0%, 100% {
+    0%,
+    100% {
         visibility: hidden;
     }
     50% {
@@ -110,7 +98,8 @@ div.odliczanie-liczba {
 }
 
 @keyframes fadeInOut {
-    0%, 100% {
+    0%,
+    100% {
         visibility: hidden;
     }
     50% {
@@ -118,29 +107,3 @@ div.odliczanie-liczba {
         color: #ff80b3;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
