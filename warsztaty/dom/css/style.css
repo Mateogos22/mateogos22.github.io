@@ -1,0 +1,15 @@
+h1 {
+    transition: all 2s;
+    font-style: 30px;
+}
+
+#parFirst {
+    width: 600px;
+    height: 200px;
+    background-color: #f8bf7a;
+}
+
+#par2 {
+    padding: 10px;
+    background-color: #5dffc9;
+}
