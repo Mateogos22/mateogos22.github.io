@@ -29,10 +29,42 @@ link.parentElement.insertBefore( br, link.nextElementSibling );
 // usuwanie atrybutów
 link.removeAttribute('class');
 
-
-
-
 // usuwanie elementów z dokumentu
 istniejacyWezel.parentElement.removeChild( istniejacyWezel );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
