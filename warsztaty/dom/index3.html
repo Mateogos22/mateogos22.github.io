@@ -6,13 +6,29 @@
 </head>
 <body>
     
-    <form id="formularz" onsubmit="pobierzImie(event)">
+   <!-- <form id="formularz" onsubmit="pobierzImie(event)">
 Imię: <input type="text" name="fname" value="Mateusz">
 <br>
 Nazwisko: <input type="text" name="lname" value="Gołos">
 <br>
 <input type="submit" value="Submit">
-</form>
+</form> -->
+  
+  <!-- walidacja formularza -->
+  
+  <form action="">
+	    <ul id="wiadomosc"></ul>
+		<label for="name">Imię i nazwisko</label><br />
+		<input type="text" id="name"><br />
+		<label for="email">Adres e-mail</label><br />
+		<input type="text" id="email"><br />
+		<input type="checkbox" id="zgoda-marketingowa-1"><label for="zgoda-marketingowa-1">Wyrażam zgodę pierwszą</label><br />
+		<input type="checkbox" id="zgoda-marketingowa-2"><label for="zgoda-marketingowa-2">Wyrażam zgodę drugą</label><br />
+		<input type="checkbox" id="wszystkie-zgody"><label for="wszystkie-zgody">Wyrażam wszytskie zgody</label><br />
+		<input type="submit" value="Wyslij" id="wyslij">
+	</form>
+  
+  
    
    <script src="js/formularz.js"></script>
     
