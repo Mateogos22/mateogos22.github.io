@@ -1,0 +1,74 @@
+/* ogólne */
+ 
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* slide */
+
+#slider {
+    position: relative;
+/*    overflow: hidden;*/
+    height: 100vh;
+    font-size: 0;
+}
+
+#slider .slide-show {
+    position: absolute;
+    height: 100vh;
+    width: 400%;    
+}
+
+#slider .single-slide {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    width: 25%;
+    display: inline-block;
+}
+
+
+#slider img {
+    width: 100vw;
+    height: 100vh;
+}
+
+#slider .slide-caption {
+    position: absolute;
+    top: 50vh;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 5;
+    color: #fff;
+    font-size: 40px;
+}
+
+.slider-arrows button {
+    font-size: 25px;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.prev-slide, next-slide {
+    position: absolute;
+    z-index: 9;
+}
+
+.prev-slide {
+    left: 0;
+}
+
+.next-slide {
+    right: 0;
+}
+
+
+
+
+
+
