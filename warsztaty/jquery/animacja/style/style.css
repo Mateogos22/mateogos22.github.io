@@ -17,7 +17,7 @@ html, body {
 #slider .slide-show {
     position: absolute;
     height: 100vh;
-    width: 400%;    
+    width: 400vw;    
 }
 
 #slider .single-slide {

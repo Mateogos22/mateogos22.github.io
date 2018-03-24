@@ -11,5 +11,13 @@ $(function(){
 $("slideShow").css("width", slideCount + "+00%");
 
 slideShow.find("single-slide").each(function(index){
-    $(this).css("slideWidth" + 100% )
-});
+    $(this).css("slideWidth" + "100%", "margin-left": "100%" )});
+
+slideShow.each(function( index ){
+    ( index )
+})
+
+
+
+
+
