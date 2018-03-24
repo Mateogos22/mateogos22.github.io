@@ -1,25 +1,27 @@
 /* ogólne */
  
+/*
 html, body {
     margin: 0px;
     padding: 0px;
 }
 
-/* slide */
+ slide 
 
 #slider {
     position: relative;
     overflow: hidden;
-    height: 100vh;
-    font-size: 0;
+    height: 600px;
 }
 
 #slider .slide-show {
     position: absolute;
-    height: 100vh;
-    width: 400vw;    
+    height: 100%;
+    width: 400%;    
 }
+*/
 
+/*
 #slider .single-slide {
     position: relative;
     top: 0;
@@ -53,7 +55,9 @@ html, body {
     top: 50%;
     transform: translateY(-50%);
 }
+*/
 
+/*
 .prev-slide, next-slide {
     position: absolute;
     z-index: 9;
@@ -62,13 +66,72 @@ html, body {
 .prev-slide {
     left: 0;
 }
+*/
+/*
 
 .next-slide {
     right: 0;
 }
+*/
 
 
+/* kod Piotrka */
 
+html, body{
+    margin: 0;
+    padding: 0;
+}
 
+#slider{
+    position: relative;
+    overflow: hidden;
+    height: 600px;
+}
+
+#slider .slide-show{
+    position: absolute;
+    height: 100%;
+    width: 400%;
+}
+
+#slider .slide-show .single-slide{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+#slider .slide-show .single-slide img{
+    height: 100%;
+    width: 100vw;
+}
+
+#slider .slide-show .single-slide .slide-caption{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 5;
+    color: #FFF;
+    font-size: 4em;
+}
+
+#slider .slider-arrows button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+#slider .prev-slide{
+    left: 5px;
+}
+
+#slider .next-slide{
+    right: 5px;
+}
 
 
