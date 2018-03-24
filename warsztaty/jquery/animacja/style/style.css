@@ -91,7 +91,6 @@ html, body{
 #slider .slide-show{
     position: absolute;
     height: 100%;
-    width: 400%;
 }
 
 #slider .slide-show .single-slide{
@@ -102,7 +101,7 @@ html, body{
 
 #slider .slide-show .single-slide img{
     height: 100%;
-    width: 100vw;
+    width: 100%;
 }
 
 #slider .slide-show .single-slide .slide-caption{
