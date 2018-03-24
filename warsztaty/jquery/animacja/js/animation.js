@@ -7,4 +7,9 @@ $(function(){
     
 });
 
-$("slideShow").css({width: "400%"});
+// szerokość kontenera 
+$("slideShow").css("width", slideCount + "+00%");
+
+slideShow.find("single-slide").each(function(index){
+    $(this).css("slideWidth" + 100% )
+});
