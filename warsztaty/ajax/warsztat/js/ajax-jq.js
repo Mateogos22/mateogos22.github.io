@@ -6,7 +6,7 @@ function pobierzDane(event) {
 }
                      
 function wrzucDoHtml(dane){
-    
+    $('body').append("<p>---------------------------</p>");
     $('body').append("<p>userId: " + dane.userId + "</p>");
     $('body').append("<p>userName: " + dane.userName + "</p>");
     $('body').append("<p>userURL: " + dane.userURL + "</p>");
