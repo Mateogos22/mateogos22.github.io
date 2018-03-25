@@ -1,5 +1,37 @@
-ajax("GET", 
-    "https://jsonplaceholder.typicode.com/users", function(data){element.scrollIntoView();})
+
+window.onscroll = function(ev) {
+    if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+    ajax("GET", "https://jsonplaceholder.typicode.com/users", wrzucDaneDoHtml)
+    })
+    
+};
+
+
+function dodajDaneDoHtml(dane) {
+    
+    var pUserId = document.createElement("p");
+    var pUserName = document.createElement("p");
+    var pUserUrl = document.createElement("p");
+    var pDoc = document.createElement("p");
+    
+    var pUserIdContent = document.createTextNode("User ID: " + dane.userId);
+    var pUserNameContent = document.createTextNode("User name: " + dane.userName);
+    var pUserUrlContent = document.createTextNode("User URL: " + dane.userURL);
+    var pDocContent = document.createTextNode("-------------------");
+    
+    pUserId.appendChild(pUserIdContent);
+    pUserName.appendChild(pUserNameContent);
+    pUserUrl.appendChild(pUserUrlContent);
+    pDoc.appendChild(pDocContent);
+    
+    document.body.appendChild(pUserId);
+    document.body.appendChild(pUserName);
+    document.body.appendChild(pUserUrl);
+    document.body.appendChild(pDoc);
+}
+
+
+// definicja funkcji ajax
 
 function ajax(method, url, callback){
     var httpRequest = new XMLHttpRequest();
@@ -19,31 +51,4 @@ function ajax(method, url, callback){
     }
     
     httpRequest.send();
-}
-
-function addDataToHtml(data){
-    var pDoc1 = document.createElement("p");
-    var pUserId = document.createElement("p");
-    var pUserName = document.createElement("p");
-    var pUserUrl = document.createElement("p");
-    var pDoc = document.createElement("p");
-    
-    var pDocContent1 = document.createTextNode("-----------------------------");
-    var pUserIdContent = document.createTextNode("User ID: " + dane.userId);
-    var pUserNameContent = document.createTextNode("User name: " + dane.userName);
-    var pUserUrlContent = document.createTextNode("User URL: " + dane.userURL);
-    var pDocContent = document.createTextNode("-----------------------------");
-    
-    pDoc1.appendChild(pDocContent1);
-    pUserId.appendChild(pUserIdContent);
-    pUserName.appendChild(pUserNameContent);
-    pUserUrl.appendChild(pUserUrlContent);
-    pDoc.appendChild(pDocContent);
-    
-    document.body.appendChild(pDoc1);
-    document.body.appendChild(pUserId);
-    document.body.appendChild(pUserName);
-    document.body.appendChild(pUserUrl);
-    document.body.appendChild(pDoc);
-    
 }
