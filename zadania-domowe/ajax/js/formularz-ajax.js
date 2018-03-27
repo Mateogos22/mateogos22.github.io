@@ -5,7 +5,7 @@ function pobierzDane(event) {
     event.preventDefault();
     var pobierz = new XMLHttpRequest();
     pobierz.open("GET", "https://akademia108.pl/kurs-front-end/ajax/1-pobierz-dane-programisty.php");
-}
+
 
 
 pobierz.onreadystatechange = function() {
@@ -22,7 +22,7 @@ pobierz.onreadystatechange = function() {
     pobierz.send();
     
     }
-
+}
 
 
 
