@@ -1,13 +1,13 @@
 
-window.onscroll = function(ev) {
+window.onscroll = function(event) {
     if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
-    ajax("GET", "https://jsonplaceholder.typicode.com/users", wrzucDaneDoHtml)
+    ajax("GET", "https://jsonplaceholder.typicode.com/users", addToHtml)
     }
     
 };
 
 
-function dodajDaneDoHtml(dane) {
+function addToHtml(data) {
     for(var i = 0; i < dane.lenght; i++){    
     var pUserId = document.createElement("p");
     var pUserName = document.createElement("p");
