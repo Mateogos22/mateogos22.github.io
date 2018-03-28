@@ -1,7 +1,7 @@
 
 window.onscroll = function(ev) {
     if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
-    ajax("GET", "https://jsonplaceholder.typicode.com/users", wrzucDaneDoHtml)
+    ajax("GET", "https://jsonplaceholder.typicode.com/users", dodajDaneDoHtml)
     }
     
 };
