@@ -26,7 +26,7 @@ wyświetlanie
 */
 
 function dodajDaneDoHtml(dane) {
-    // stworzenie DIV - do niego się odnosisz, gdy dodajesz nowe elementy na końcu funkcji
+    // DIV 
     var divDaneProgramisty = document.createElement("div");
 
     document.body.appendChild(divDaneProgramisty);
