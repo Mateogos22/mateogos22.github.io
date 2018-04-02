@@ -2,8 +2,7 @@
 window.onscroll = function(event) {
     if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
     ajax("GET", "https://jsonplaceholder.typicode.com/users", addToHtml)
-    
-};
+    }
 
 
 function addToHtml(data) {
@@ -48,6 +47,6 @@ function ajax(method, url, callback){
             }
         }
     }
-  
-    httpRequest.send();
 }
+    httpRequest.send();
+
