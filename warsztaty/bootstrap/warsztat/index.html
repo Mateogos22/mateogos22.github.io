@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400i|Montserrat:700|Roboto+Slab&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/fontawesome-all.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
     <!-- bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
 </head>
@@ -44,7 +45,7 @@
         <!-- Nawigacja koniec -->
 
         <div class="header-caption">
-            <p class="text1"> Sit amet, consectetur adipisicing.</p>
+            <p class="text1 font-italic"> Sit amet, consectetur adipisicing.</p>
             <p class="text2 text-uppercase">Lorem ipsum dolor</p>
             <button class="btn btn-lg">View more</button>
         </div>
@@ -54,38 +55,46 @@
     <section id="services">
         <div class="container text-center">
             <div class="row">
-                    <header class="section-header">
-                        <h2 class="title">Service</h2>
-                        <p class="section-caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa laborum consequuntur explicabo, distinctio officiis inventore!</p>
-                    </header>
-                </div>
-             <div class="row">
-                 <div class="col-md-4">
-                     <i class="fas fa-briefcase"></i>
-                     <h4>Web Developer</h4>
-                     <p>
-                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quae pariatur animi neque quasi nemo.
-                     </p>
-                 </div>                 
-             </div>
-             <div class="row">
-                 <div class="col-md-4">
-                     <i class="fas fa-cloud-download-alt"></i>
-                     <h4>E-commerce</h4>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit vel iusto voluptate accusamus, id dolorem.</p>
-                 </div>
-             </div>
-             <div class="rov">
-                 <div class="col-md-4">
-                     <i class="fas fa-cloud"></i>
-                     <h4>Web Design</h4>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, doloremque, veniam. Doloribus totam unde quia!</p>
-                 </div>
-             </div>
+                <header class="col-lg-12 section-header">
+                    <h2 class="title">Service</h2>
+                    <p class="section-caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa laborum consequuntur explicabo, distinctio officiis inventore!</p>
+                </header>
             </div>
+
+            <div class="row">
+                <!-- web dev -->
+                <div class="col-md-4">
+                    <div class="col-md=4 circle">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h4>Web Developer</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quae pariatur animi neque quasi nemo.
+                    </p>
+                </div>
+
+                <!-- e-commerce -->
+                <div class="col-md-4">
+                    <div class="col-md-4 circle">
+                        <i class="fas fa-cloud-download-alt"></i>
+                    </div>
+                    <h4>E-commerce</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit vel iusto voluptate accusamus, id dolorem.</p>
+                </div>
+
+                <!-- web dev -->
+                <div class="col-md-4">
+                    <div class="col-md-4 circle">
+                        <i class="fas fa-comment"></i>
+                    </div>
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, doloremque, veniam. Doloribus totam unde quia!</p>
+                </div>
+            </div>
+        </div>
     </section>
 
-   
+
     <!-- jQuery, Propper.js, Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>

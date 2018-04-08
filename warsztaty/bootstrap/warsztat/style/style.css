@@ -45,3 +45,23 @@ body {
 }
 
 /* service */
+
+
+div.circle {
+    position: relative;
+    left: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: #008a9d;
+    border: 1px solid #008a9d;
+    border-radius: 50%;
+}
+
+i.fas {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 35px;
+    color: #fff;
+}
+
