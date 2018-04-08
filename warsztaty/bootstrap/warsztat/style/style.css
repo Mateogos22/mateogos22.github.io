@@ -146,6 +146,7 @@ section#portfolio {
 
 #portfolio .item-mask:hover {
     opacity: 1;
+    transition: all 0.4s ease-in-out;
 }
 
 #portfolio .portfolio-im-bg:hover {
@@ -166,7 +167,7 @@ img {
     max-height: 200px;
 }
 
-.portfolio-contain i.fas {
+.social-icons i.fab {
     font-size: 25px;
 }
 
