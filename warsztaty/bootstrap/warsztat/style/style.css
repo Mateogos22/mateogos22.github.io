@@ -49,6 +49,7 @@ body {
 
 section#services {
     padding: 70px;
+    margin: 25px;
 }
 
 .section-header {
@@ -73,7 +74,11 @@ div.circle {
 
 
 .text {
-    padding-top: 45px;
+    padding: 65px;
+}
+
+.text>h4 {
+    padding: 15px;
 }
 
 /* portfolio */
@@ -169,6 +174,7 @@ img {
 
 .social-icons i.fab {
     font-size: 25px;
+    color: #000;
 }
 
 
