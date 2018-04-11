@@ -31,9 +31,11 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#about">O mnie</a>
                     </li>
+                    <!--
                     <li class="nav-item">
                         <a class="nav-link" href="#skills">Umiejętności</a>
                     </li>
+-->
                     <li class="nav-item">
                         <a class="nav-link" href="#portfolio">Portfolio</a>
                     </li>
@@ -45,7 +47,7 @@
         </nav>
 
         <!-- Nawigacja koniec -->
-    
+
         <div class="header-caption">
             <h1>Mateusz Gołos</h1>
             <a href="#about" class="btn btn-lg text-uppercase read-more">Więcej</a>
@@ -55,17 +57,54 @@
     <!-- about -->
     <section id="about">
         <div class="container text-center">
-           <div class="col-lg-12 section-header">
+            <div class="col-lg-12 section-header">
                 <h2 class="header-text">O mnie</h2>
             </div>
             <div class="row">
-            <figure class="col-md-6 photo">
-                <img src="style/img/portfolio-photo.jpg" alt="">
-            </figure>
-            <div class="col-md-6 about-me"></div>
+                <figure class="col-md-6 photo">
+                    <img src="style/img/portfolio-photo.jpg" alt="">
+                </figure>
+                <div class="col-md-6 about-me">
+                    <h2 class="text-uppercase">Lorem ipsum.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum aspernatur, non temporibus beatae neque. Eaque obcaecati, magnam. Modi debitis veniam numquam, sint quod reiciendis odit iusto similique aliquam distinctio in sequi, corporis ratione aut repellat enim incidunt a recusandae nam!</p>
+                </div>
             </div>
         </div>
     </section>
+    <section id="skills">
+        <div class="container text-center">
+            <div class="col-lg-12 section-header">
+                <h2 class="header-text">Umiejętności</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <figure>
+                        <img src="style/img/icons/html5.png" alt="">
+                    </figure>
+                    <p>HTML5</p>
+                </div>
+                <div class="col-md-3">
+                    <figure>
+                        <img src="style/img/icons/css3.png" alt="">
+                    </figure>
+                    <p>CSS3</p>
+                </div>
+                <div class="col-md-3">
+                    <figure>
+                        <img src="style/img/icons/js.png" alt="">
+                    </figure>
+                    <p>JavaScript</p>
+                </div>
+                <div class="col-md-3">
+                    <figure>
+                        <img src="style/img/icons/jquery.png" alt="">
+                    </figure>
+                    <p>jQuery</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <!-- portfolio -->
     <section id="portfolio">
@@ -192,6 +231,43 @@
             </div>
         </div>
     </section>
+
+    <!-- contact -->
+    <section id="contact">
+			<div class="section-content">
+				<h1 class="section-header">Kontakt</h1>
+			</div>
+			<div class="contact-section">
+			<div class="container">
+				<form>
+					<div class="col-md-6 form-line">
+			  			<div class="form-group">
+			  				<label for="name">Imię i nazwisko</label>
+					    	<input type="text" class="form-control" id="" placeholder="Imie i nazwisko">
+				  		</div>
+				  		<div class="form-group">
+					    	<label for="email">Email</label>
+					    	<input type="email" class="form-control" id="exampleInputEmail" placeholder="Adres email">
+					  	</div>	
+					  	<div class="form-group">
+					    	<label for="telephone">Numer telefonu</label>
+					    	<input type="tel" class="form-control" id="telephone" placeholder="Telefon">
+			  			</div>
+			  		</div>
+			  		<div class="col-md-6">
+			  			<div class="form-group">
+			  				<label for ="message">Wiadomość</label>
+			  			 	<textarea  class="form-control" id="description" placeholder="Wiadomość..."></textarea>
+			  			</div>
+			  			<div>
+
+			  				<button type="button" class="btn btn-default submit"><i class="fa fa-paper-plane" aria-hidden="true"></i> Wyślij wiadomość</button>
+			  			</div>
+			  			
+					</div>
+				</form>
+			</div>
+		</section>
 
 
 
