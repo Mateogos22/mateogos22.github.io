@@ -15,7 +15,14 @@ function silnia(n) {
     } else {        
         return n * silnia(n - 1)
     }
-   debugger;
 }
-    console.log(silnia(5));
+    
+//    var wynik = 1;
+//    for (var i = 1; i <= 1; i++){
+//        wynik *= 1;
+//    }
+//    
+//    return wynik;
+    
+    console.log(silnia(4));
 });
