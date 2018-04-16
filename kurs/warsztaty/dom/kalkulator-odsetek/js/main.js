@@ -1,17 +1,27 @@
-//function oblicz(e){
-//    e.preventDefault();
-//    var wyplata parseInt(document.getElementsByClassName('salary').value);
-//    var sumaWyplat = 
+//function countSum(e){
+//    e.preventDefault
 //}
-//    
-//    function obliczSumeWyplat() {
-//        var i = 0;
-//        for (i = 0; i < wyplata.length; i++) {
-//            
-//        }
+//
+//var sum = 0;
+//
+//$(".salary").each(function() {
+//    var val = $.trim( $(this).text() );
+//
+//    if ( val ) {
+//        val = parseFloat( val.replace( /^\$/, "" ) );
+//
+//        sum += !isNaN( val ) ? val : 0;
 //    }
+//});
+//
+//console.log( sum );
 
-function multiply(a, b){
-    a * b;
-    console.log(multiply);
+/* for */
+$('#count-sum').click(function(){
+    var salary = parseInt(document.getElementsByClassName('salary').value);
+    console.log();
+});
+
+function sumSalary(salary) {
+    
 }
