@@ -1,0 +1,182 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    color: #777;
+}
+
+/* nawigacja */
+#main-nav a {
+    color: #fff;
+}
+
+/* nagłówek */
+
+.main-header {
+    background-image: url(img/hero-gradient.png), url(img/header/pictures_on_the_wall.jpg);
+    background-position: center;
+    background-repeat: repeat no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.header-caption {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 30px;
+    transform: translate(-50%, -50%);
+}
+
+.text2 {
+    font-size: 50px;
+}
+
+.btn {
+    color: #fff;
+    background-color: #03fff5;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #0ed8d6;
+}
+
+/* service */
+
+section#services {
+    padding: 70px;
+    margin: 25px;
+}
+
+.section-header {
+    padding-bottom: 45px;
+}
+
+div.circle {
+    margin: auto;
+    width: 90px;
+    height: 90px;
+    background-color: #03fff5;
+    border: 1px solid #03fff5;
+    border-radius: 50%;
+}
+
+
+.circle>i.fas {
+    margin-top: 15px;
+    font-size: 50px;
+    color: #fff;
+}
+
+
+.text {
+    padding: 65px;
+}
+
+.text>h4 {
+    padding: 15px;
+}
+
+/* portfolio */
+
+section#portfolio {
+    background-color: #f7f7f7;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.portfolio-contain {
+    background-color: #fff;
+}
+
+.portfolio-image {
+    overflow: hidden
+}
+
+.portfolio-image .portfolio-im-bg {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 260px;
+    transition: all .5s;
+     
+}
+
+#pimg1 {
+    background-image: url(img/portfolio/box_of_cookies.jpg);
+}
+
+#pimg2 {
+    background-image: url(img/portfolio/chaotic_paint.jpg);
+}
+
+#pimg3 {
+    background-image: url(img/portfolio/chestnut_on_bracket.jpg);
+}
+
+#pimg4 {
+    background-image: url(img/portfolio/child_with_blue_paint.jpg);
+}
+
+#pimg5 {
+    background-image: url(img/portfolio/house_with_blue_doors.jpg);
+}
+
+#pimg6 {
+    background-image: url(img/portfolio/typing_on_laptop.jpg);
+}
+
+#portfolio .item-mask {
+    background-color: rgba(3, 255, 245, 0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.item-mask i.fas {
+    font-size: 70px;
+    color: #fff;
+    position: absolute;
+    top: 35%;
+    left: 45%;
+}
+
+#portfolio .item-mask:hover {
+    opacity: 1;
+    transition: all 0.4s ease-in-out;
+}
+
+#portfolio .portfolio-im-bg:hover {
+    transform: scale(1.2, 1.2);
+    transition: all 0.4s ease-in-out;
+}
+
+/* team */
+
+.portfolio-contain {
+    margin: auto;
+}
+
+img {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.social-icons i.fab {
+    font-size: 25px;
+    color: #000;
+}
+
+
+
+
