@@ -1,0 +1,27 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#contain {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(2, 131, 206, 0.733);
+}
+
+#clock .clock-content {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    border: 1px solid #000;
+    border-radius: 10px;
+    display: inline-block;
+
+}
+
+.clock-content > h2 {
+    text-align: center;
+    font-size: 40px;
+}

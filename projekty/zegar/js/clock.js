@@ -7,6 +7,10 @@ $(document).ready(function () {
     var minutesOut = $('#minutes');
     var secondOut = $('#second');
 
+    /* 
+        Pobranie daty i godziny
+    */
+
     function updateDate() {
         var date = new Date;
 
@@ -25,7 +29,7 @@ $(document).ready(function () {
         var day = date.getDate();
         var year = date.getFullYear();
 
-        var dateStr = dayOfWeek + " " + day + " " + month + " " + year;
+        var dateStr = dayOfWeek + ", " + day + " " + month + ", " + year;
        
         dayOut.text(dateStr);
         hourOut.text(hour);
@@ -33,8 +37,21 @@ $(document).ready(function () {
         secondOut.text(second);
     }
 
+/* 
+    wyswietlenie w oknie funkcji updateDate
+*/
+
     updateDate();
     window.setInterval(updateDate);
 
 
+    // /* 
+    //     tło
+    // */
+    
+    // setInterval(function () {
+        
+    // })
+
+    
 });
