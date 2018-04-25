@@ -52,7 +52,7 @@ $(document).ready(function () {
     $('body').css('background-image', function () {
         var bgHour = new Date().getHours();
         if( bgHour > 7 && bgHour < 12 ) {
-            return '(url../img/zdj.jpg)';
+            return 'url(../img/zdj.jpg)';
         }
     } );
     
