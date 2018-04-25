@@ -15,8 +15,8 @@ $(document).ready(function () {
         var date = new Date;
 
         var hour = date.getHours() < 10 ?
-            "0" + date.getHours() 
-            : date.getHours();
+            "0" + date.getHours() :
+            date.getHours();
         var minutes = date.getMinutes() < 10 ?
             "0" + date.getMinutes() :
             date.getMinutes();
@@ -30,28 +30,33 @@ $(document).ready(function () {
         var year = date.getFullYear();
 
         var dateStr = dayOfWeek + ", " + day + " " + month + ", " + year;
-       
+
         dayOut.text(dateStr);
         hourOut.text(hour);
         minutesOut.text(minutes);
         secondOut.text(second);
     }
 
-/* 
-    wyswietlenie w oknie funkcji updateDate
-*/
+    /* 
+        wyswietlenie w oknie funkcji updateDate
+    */
 
     updateDate();
     window.setInterval(updateDate);
 
 
-    // /* 
-    //     tło
-    // */
-    
-    // setInterval(function () {
-        
-    // })
+    /* 
+        tło
+    */
 
+    $('body').css('background-image', function () {
+        var bgHour = new Date().getHours();
+        if( bgHour > 7 && bgHour < 12 ) {
+            return '(url../img/zdj.jpg)';
+        }
+    } );
     
+
+
+
 });
