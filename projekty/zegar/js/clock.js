@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
     var months = ['styczeń', 'luty', 'marzec', 'kwiecień', 'maj', 'czerwiec', 'lipiec', 'sierpień', 'wrzesień', 'październik', 'listopad', 'grudzień'];
-    var days = ['poniedziałek', 'wtorek', 'środa', 'czwartek', 'piątek'];
+    var days = ['poniedziałek', 'wtorek', 'środa', 'czwartek', 'piątek', 'sobota', 'niedziela'];
     var dayOut = $('#date');
     var hourOut = $('#hour');
     var minutesOut = $('#minutes');
@@ -49,14 +49,10 @@ $(document).ready(function () {
         tło
     */
 
-    $('body').css('background-image', function () {
-        var bgHour = new Date().getHours();
-        if( bgHour > 7 && bgHour < 12 ) {
-            return '(url../img/zdj.jpg)';
-        }
-    } );
-    
-
-
+    var bg = new Date();
+    var n = bg.getHours();
+    if ( n > 6 && n < 8 ) {
+        $("body").css("background", "url('../img/zdj.jpg')");
+    }
 
 });
