@@ -50,7 +50,7 @@ $(document).ready(function () {
     */
 
     updateDate();
-    window.setInterval(updateDate, changeBackgroundImage);
+    window.setInterval(updateDate);
 
 
 });
