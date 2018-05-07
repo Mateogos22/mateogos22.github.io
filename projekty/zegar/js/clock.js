@@ -10,20 +10,20 @@ $(document).ready(function () {
     /* 
         Pobranie daty i godziny
     */
-    var date = new Date;
-
-    var hour = date.getHours() < 10 ?
-        "0" + date.getHours() :
-        date.getHours();
-    var minutes = date.getMinutes() < 10 ?
-        "0" + date.getMinutes() :
-        date.getMinutes();
-    var second = date.getSeconds() < 10 ?
-        "0" + date.getSeconds() :
-        date.getSeconds();
-
-    function updateDate() {
-
+   
+   function updateDate() {
+       
+       var date = new Date;
+    
+       var hour = date.getHours() < 10 ?
+           "0" + date.getHours() :
+           date.getHours();
+       var minutes = date.getMinutes() < 10 ?
+           "0" + date.getMinutes() :
+           date.getMinutes();
+       var second = date.getSeconds() < 10 ?
+           "0" + date.getSeconds() :
+           date.getSeconds();
         var dayOfWeek = days[date.getDay()];
         var month = months[date.getMonth()];
         var day = date.getDate();
@@ -35,14 +35,13 @@ $(document).ready(function () {
         hourOut.text(hour);
         minutesOut.text(minutes);
         secondOut.text(second);
-    }
 
-    function changeBackgroundImage() {
-        if (hour >= 6 && hour <= 20) {
-            $('body').css('background-image', 'url(../img/day.jpg)');
-        } else {
-            $('body').css('background-image', 'url(../img/night.jpg)');
-        }
+            if(hour >= 6 && hour <= 19) {
+                $('body').css('background-image', 'url(img/day.jpg)');
+            } else {
+                $('body').css('background-image', 'url(img/night.jpg)');
+            }
+        
     }
 
     /* 
