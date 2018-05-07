@@ -45,15 +45,4 @@ $(document).ready(function () {
     window.setInterval(updateDate);
 
 
-    /* 
-        tło
-    */
-
-    var bg = new Date();
-    var n = bg.getHours();
-    if ( n > 6 && n < 8 ) {
-        $("body").css("background", "url('../img/zdj.jpg')");
-    }
-
-
 });
