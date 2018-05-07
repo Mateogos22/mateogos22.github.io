@@ -10,19 +10,19 @@ $(document).ready(function () {
     /* 
         Pobranie daty i godziny
     */
+    var date = new Date;
+
+    var hour = date.getHours() < 10 ?
+        "0" + date.getHours() :
+        date.getHours();
+    var minutes = date.getMinutes() < 10 ?
+        "0" + date.getMinutes() :
+        date.getMinutes();
+    var second = date.getSeconds() < 10 ?
+        "0" + date.getSeconds() :
+        date.getSeconds();
 
     function updateDate() {
-        var date = new Date;
-
-        var hour = date.getHours() < 10 ?
-            "0" + date.getHours() :
-            date.getHours();
-        var minutes = date.getMinutes() < 10 ?
-            "0" + date.getMinutes() :
-            date.getMinutes();
-        var second = date.getSeconds() < 10 ?
-            "0" + date.getSeconds() :
-            date.getSeconds();
 
         var dayOfWeek = days[date.getDay()];
         var month = months[date.getMonth()];
