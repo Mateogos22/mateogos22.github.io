@@ -37,9 +37,9 @@ $(document).ready(function () {
         secondOut.text(second);
 
             if(hour >= 6 && hour <= 19) {
-                $('body').css('background-image', 'url(img/day.jpg)');
+                $("body").css("background-color", "#9ec103");
             } else {
-                $('body').css('background-image', 'url(img/night.jpg)');
+                $('body').css("background-color", "#060630");
             }
         
     }
