@@ -37,12 +37,20 @@ $(document).ready(function () {
         secondOut.text(second);
     }
 
+    function changeBackgroundImage() {
+        if (hour >= 6 && hour <= 20) {
+            $('body').css('background-image', 'url(../img/day.jpg)');
+        } else {
+            $('body').css('background-image', 'url(../img/night.jpg)');
+        }
+    }
+
     /* 
         wyswietlenie w oknie funkcji updateDate
     */
 
     updateDate();
-    window.setInterval(updateDate);
+    window.setInterval(updateDate, changeBackgroundImage);
 
 
 });
