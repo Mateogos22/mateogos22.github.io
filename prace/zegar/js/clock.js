@@ -49,7 +49,7 @@ $(document).ready(function () {
     */
 
     updateDate();
-    window.setInterval(updateDate);
+    window.setInterval(updateDate, 1000);
 
 
 });
