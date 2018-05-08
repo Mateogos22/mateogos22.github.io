@@ -36,10 +36,12 @@ $(document).ready(function () {
         minutesOut.text(minutes);
         secondOut.text(second);
 
-            if(hour >= 6 && hour <= 19) {
-                $("body").css("background-color", "#9ec103");
+            if(hour >= 6 && hour <= 12) {
+                $("body").css("background-color", "#4595f7");
+            } else if (hour > 12 && hour < 20) {
+                $('body').css("background-color", "#1a7cf4")
             } else {
-                $('body').css("background-color", "#060630");
+                $('body').css("background-color", "#012959");
             }
         
     }
