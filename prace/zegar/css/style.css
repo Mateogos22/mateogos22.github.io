@@ -12,7 +12,7 @@ body {
 }
 
 #date-container {
-    background-color: rgba(85, 81, 81, 0.425);
+    background-color: rgba(85, 81, 81, 0.315);
     position: relative;
     display: flex;
     justify-content: center;
