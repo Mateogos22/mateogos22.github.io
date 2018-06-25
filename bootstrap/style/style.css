@@ -92,6 +92,7 @@ section#about {
 }
 
 /* 3 section */
+
 section#portfolio {
     background-color: #f7f7f7;
     padding-top: 50px;
@@ -180,12 +181,14 @@ section#contact {
     background-size: cover;
 }
 
-@media (max-width: 500px) {
-    display: flex;
-    justify-content: center;
-}
-
 label {
     color: #fff;
     width: 300px;
+}
+
+/* responsive */
+
+@media (max-width: 500px) {
+    display: flex;
+    justify-content: center;
 }

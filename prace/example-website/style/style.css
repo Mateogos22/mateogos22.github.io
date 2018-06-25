@@ -59,3 +59,61 @@ a:hover {
     padding: 5px;
     text-align: center;
 }
+
+/* 
+=========================
+        header 
+=========================
+*/
+
+header.header {
+    background-image: url("../style/img/drawing-2284505_1280.jpg");
+    background-position: center;
+    overflow: hidden;
+    height: 100vh;
+}
+
+header.header>h1 {
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 50vh;
+    color: #fff;
+}
+
+/* 
+==========================
+        team
+==========================
+*/
+
+#team {
+    background-color: rgb(253, 251, 251);
+}
+
+.team-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.person {
+    max-width: 400px;
+    background-color: #fff;
+}
+
+.person>p {
+    font-size: 20px;
+}
+
+.person>p::first-line {
+    color: rgb(15, 173, 255);
+    text-align: left;
+}
+
+figure>img {
+    max-height: 250px;
+    max-width: 250px;
+    border: 1px #fff solid;
+    border-radius: 50px;
+}
