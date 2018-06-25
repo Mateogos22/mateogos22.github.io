@@ -9,6 +9,8 @@ h2 {
     font-size: 40px;
 }
 
+/* menu */
+
 #main-nav {
     background-color: rgba(0, 0, 255, 0.8);
     font-family: 'Roboto', sans-serif;
@@ -17,6 +19,8 @@ h2 {
 #main-nav a {
     color: #fff;
 }
+
+/* header */
 
 .main-header {
     background-image: url(img/BfnUa.png), url(img/pexels-photo-92904.jpeg);
@@ -55,6 +59,8 @@ h2 {
     transition: all .3s ease-in-out;
 }
 
+/* 1 section */
+
 section#about {
     padding: 70px;
     margin: 25px;
@@ -77,12 +83,15 @@ section#about {
     max-height: 250px;
 }
 
+/* 2 section */
+
 #skills {
     padding: 15px;
     font-size: 25px;
     font-weight: 500;
 }
 
+/* 3 section */
 section#portfolio {
     background-color: #f7f7f7;
     padding-top: 50px;
@@ -148,6 +157,8 @@ section#portfolio {
     left: 45%;
 }
 
+/* hover */
+
 #portfolio .item-mask:hover {
     opacity: 1;
     transition: all 0.4s ease-in-out;
@@ -158,6 +169,8 @@ section#portfolio {
     transition: all 0.4s ease-in-out;
 }
 
+/* contact */
+
 section#contact {
     margin: 15px;
     padding: 15px;
@@ -165,6 +178,11 @@ section#contact {
     background-repeat: repeat no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+@media (max-width: 500px) {
+    display: flex;
+    justify-content: center;
 }
 
 label {
