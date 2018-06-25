@@ -1,48 +1,234 @@
 <!DOCTYPE html>
 <html lang="pl">
-
 <head>
-  <meta charset="UTF-8">
-  <title>Warsztaty - HTML5 w praktyce</title>
-  <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="css/style.css">
-</head>
 
+	<meta charset="UTF-8">
+	
+	<title>Moje portfolio - Krystian Dziopa</title>
+
+	
+			
+	<!-- Google Fonts Styles -->
+	
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet">
+	
+	
+	
+	<!-- Font Awesome Styles --> 
+	
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	
+	
+	
+	<!-- Main styles  -->
+	
+	<link rel="stylesheet" href="css/style.css">
+	
+	
+	
+	<!-- RWD - Responsive styles  -->
+	<link rel="stylesheet" href="css/responsive.css">
+	
+</head>
 <body>
 
 
-  <div id="menu">
-    <div class="menu-item"><a href="#">Home</a></div>
-    <div class="menu-item"><a href="#about">O mnie</a></div>
-    <div class="menu-item"><a href="#contact">Kontakt</a></div>
-  </div>
 
 
-  <div id="header">
-    <img src="img/header-background.jpg" alt="Zdjęcie nagłówkowe">
-    <div id="main-header-text">Moja własna strona</div>
-  </div>
+	<!-- Main Navigation Start -->
+	
+	<nav id="main-nav">
+		
+		<label for="drop" class="toggle">Menu</label>
+        <input type="checkbox" id="drop" />
+		
+		<ul>
+			<li><a href="#about">o mnie</a></li>
+			<li><a href="#skills">umiejetności</a></li>
+			<li><a href="#portfolio">portfolio</a></li>
+			<li><a href="#contact">kontakt</a></li>
+		</ul>
+	</nav>
+	
+	<!-- Main Navigation Stop -->
+	
 
-  <div id="about">
-    <div id="about-header">O mnie</div>
-    <div class="about-content">Front-end developer i project manager. Odpowiadał za realizację wielu projektów webowych dla klientów w Polski i zagranicy. Występował jako prelegent na spotkaniach WordUp, gdzie opowiadał o możliwościach systemu WordPress CMS przy tworzeniu stron internetowych.</div>
-    <br />
+	
+		
+			
+				
+					
+							
+	<!-- Main Header Start -->
+	
+	<header id="main-header">
+		<div class="main-header-content">
+			<h1>Krystian <span>Dziopa</span></h1>
+			<h2>Front-End Developer</h2>
+		</div>
+	</header>
+	
+	<!-- Main Header Stop -->
 
-    <div class="about-content"> Uważa, że każdy może zostać programistą, dlatego prowadzi warsztaty na uczelniach wyższych oraz w ramach projektu Codevenig, na których pokazuje jak funkcjonują współczesne strony internetowe.</div>
-
-  </div>
 
 
-  <div id="contact">
-    <div id="contact-header">Kontakt</div>
-    <div id="contact-content">
-      Łukasz Badocha<br /> 
-      ul. Mostowa 6/13<br /> 
-      31-061 Kraków<br />
-      <a href="mailto:l.badocha@arena108.pl">l.badocha@arena108.pl</a>
-    </div>
-  </div>
 
+
+
+
+
+	<!-- About Section Start -->
+	
+	<section id="about">
+			<h2>O <span>mnie</span></h2>
+			<figure><img src="img/jan-nowak.jpg" alt="Łukasz Badocha"></figure>
+			<article class="about-content">
+				<p>Front-end developer i project manager. Odpowiadał za realizację wielu projektów webowych dla klientów w Polski i zagranicy. Występował jako prelegent na spotkaniach WordUp, gdzie opowiadał o możliwościach systemu WordPress CMS przy tworzeniu stron internetowych. Uważa, że każdy może zostać programistą, dlatego prowadzi warsztaty na uczelniach wyższych oraz w ramach projektu Codevenig, na których pokazuje jak funkcjonują współczesne strony internetowe.</p>
+			</article>
+	</section>
+	
+	<!-- About Section Start -->
+	
+	
+	
+	
+	
+	
+	
+	
+	<!-- Skills Section Start -->
+	
+	<section id="skills">
+			<h2>Moje <span>umiejętnści</span></h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil soluta maiores distinctio dignissimos. Autem, consequatur recusandae totam molestias velit sequi!</p>
+			
+			<div id="skills-icons">
+				<figure class="skills-icons-item">
+					<img src="icons/html5.png" alt="Ikona HTML5"><figcaption>HTML5</figcaption>
+				</figure>
+				<figure class="skills-icons-item">
+					<img src="icons/css3.png" alt="Ikona CSS3"><figcaption>CSS3</figcaption>
+				</figure>
+				<figure class="skills-icons-item">
+					<img src="icons/js.png" alt="Ikona JS"><figcaption>JavaScript</figcaption>
+				</figure>
+				<figure class="skills-icons-item">
+					<img src="icons/jquery.png" alt="Ikona jQuery"><figcaption>jQuery</figcaption>
+				</figure>
+			</div>
+			
+	</section>
+	
+	<!-- Skills Section Stop -->
+	
+	
+	
+	
+	
+	
+	
+	
+	<!-- Portfolio Section Start -->
+	
+	<section id="portfolio">
+		<h2>Moje <span>portfolio</span></h2>
+		<div class="portfolio-items">
+			<div id="portfolio-item-1" class="portfolio-item">
+				<div class="item-mask">
+					<div class="item-content">
+						<div class="item-content-inner">
+							<h3>Lorem ipsum</h3>
+							<p class="project-description">Opis projektu lorem ipsum dolor sit amet. Nunc et lorem metus. Proin in dui a diam consequat finibus. Praesent vehicula feugiat ipsum aliquam congue.</p>
+							<h4>Wykorzystane technologie:</h4><p class="project-technologies">HTML5, CSS3, RWD, Bootstrap, JavaScript, JQuery</p>
+							<a href="#" class="project-link"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
+						</div>		
+					</div>
+				</div>
+			</div>
+			<div id="portfolio-item-2" class="portfolio-item">
+				<div class="item-mask">
+					<div class="item-content">
+						<div class="item-content-inner">
+							<h3>Lorem ipsum</h3>
+							<p class="project-description">Opis projektu lorem ipsum dolor sit amet. Nunc et lorem metus. Proin in dui a diam consequat finibus. Praesent vehicula feugiat ipsum aliquam congue.</p>
+							<h4>Wykorzystane technologie:</h4><p class="project-technologies">HTML5, CSS3, RWD, Bootstrap, JavaScript, JQuery</p>
+							<a href="#" class="project-link"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
+						</div>		
+					</div>
+				</div>
+			</div>
+			<div id="portfolio-item-3" class="portfolio-item">
+				<div class="item-mask">
+					<div class="item-content">
+						<div class="item-content-inner">
+							<h3>Lorem ipsum</h3>
+							<p class="project-description">krótki opis</p>
+							<h4>Wykorzystane technologie:</h4><p class="project-technologies">HTML5, CSS3, RWD, Bootstrap, JavaScript, JQuery</p>
+							<a href="#" class="project-link"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
+						</div>		
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!-- Portfolio Section Start -->
+
+
+	
+		
+			
+				
+					
+							
+	<!-- Contact Section Start -->
+	
+	<section id="contact">
+		<div class="contact-data">
+		<h2>Łukasz <span>Badocha</span></h2>
+		<address>
+				ul. Mostowa 6/13<br>
+				31-061 Kraków<br><br>
+				tel: 606 74 57 59<br>
+				e-mail: <a href="mailto:kursy@arena108.pl">kursy@akademia108.pl</a>
+				</address>
+				<div class="contact-social-icons">
+					<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+					<a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+					<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+					<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+				</div>
+			
+		</div>
+		<div class="contact-form">
+			<form action="">
+				<input type="text" name='name' placeholder="Imię i nazwisko" />
+				<input type="email" name="email" placeholder="Adres e-mail" />
+				<textarea name="message" placeholder="Wiadomość"></textarea>
+				<input type="submit" value="Wyślij">
+			</form>
+		</div>
+	</section>
+	
+	<!-- Stop Section Start -->
+	  
+
+	  
+	  	  
+	  	  	  
+	  	  	  	  
+	  	  	  	  	  
+	  	  	  	  	  	  	  
+	<!-- Footer Start -->
+   
+    <footer>
+		<p class="copyright">Copyright &copy Krystian Dziopa</p>
+	</footer>
+	
+	<!-- Footer Stop -->
+	
+	
+	
+		
 </body>
-
 </html>

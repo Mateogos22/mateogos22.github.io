@@ -1,0 +1,114 @@
+/* Responsive Styles Start */
+
+@media all and (max-width : 1200px) {
+	
+	/*	Responsive Portfolio Section */
+	#portfolio .portfolio-items .portfolio-item {
+		width: 50%;
+	 }
+  
+  	#portfolio .portfolio-items .portfolio-item:last-child {
+		width: 100%;
+	}
+
+}
+
+@media all and (max-width : 992px) {
+	
+	
+	/*	Responsive Main Menu */
+	#main-nav .toggle {
+		display: block;
+		background-color: #fff;
+		padding: 0 20px;
+		color: #1ac056;
+		font-size: 20px;
+		line-height: 60px;
+		text-decoration: none;
+		border: none;
+		text-align: right;
+	}
+	
+	#main-nav ul {
+    	display: none;
+  	}
+	
+	#main-nav #drop:checked + ul { 
+    	display: block;
+  	}
+	
+	#main-nav > ul > li {
+		display: block;
+		width: 100%;
+		padding: 20px;
+		text-align: right;
+  	}
+	
+	/*	Responsive Header */
+	#main-header .main-header-content {
+		padding: 10%;
+	}
+	
+	
+	/*	Responsive About Section */
+	#about > figure {
+		width: 100%;
+	}
+	
+	#about > figure > img {
+		max-height: inherit;
+	}
+	
+	#about > article {
+		width: 100%;
+	}
+	
+	#portfolio .portfolio-items .portfolio-item {
+		width: 100%;
+	 }
+	
+	/*	Responsive Contact Section */
+	#contact .contact-data, #contact .contact-data h2 {
+		width: 100%;
+		text-align: center;
+	 }
+
+	 #contact .contact-form {
+		width: 100%;
+	 }
+	
+	#contact .contact-data .contact-social-icons a{
+		margin: 0;
+	}
+
+}
+
+@media all and (max-width : 768px) {
+	
+	
+	/*	Responsive General Styles */
+	section {
+		padding: 0 40px 50px;
+	}
+	
+	/*	Responsive Header */
+	#main-header .main-header-content h1 {
+		font-size: 3em;
+	}
+	
+	#main-header .main-header-content h2{
+		font-size: 1.5em;
+	}
+
+}
+
+@media all and (max-width : 576px) {
+
+	/*	Responsive General Styles */
+	section {
+		padding: 0 10px 30px;
+	}
+
+}
+
+/* Responsive Styles Stop */
